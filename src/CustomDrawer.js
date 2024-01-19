@@ -1,25 +1,25 @@
 import React,{ useState, useEffect, useContext} from "react";
-import {View,Text, StyleSheet,TouchableOpacity,Image,Alert, ScrollView} from 'react-native';
+import {View,Text, StyleSheet,TouchableOpacity,Image,Alert, ScrollView, ImageBackground} from 'react-native';
 import { DrawerContentScrollView, DrawerItemList , DrawerItem } from '@react-navigation/drawer';
 import IonIcons from 'react-native-vector-icons/Ionicons';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Animated from 'react-native-reanimated';
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
 
 const CustomDrawer=(props)=>{
     return(
         <View style={{flex:1}}>
+         
    
         <View style={{ backgroundColor: '#2f4f4f', height: 100, }}>
-          <View style={{flexDirection:'row',alignItems:'center',marginTop:15}}>
-        {/* <Image style={{height:80,width:80}} source={require('../screens/vd.png')}/> */}
-        <View>
-        <Text style={{marginLeft:15,color:'#fff',fontSize:16}}></Text>            
-     
-                        {/* <Text style={{marginLeft:15,marginTop: 10,color:'#fff',fontSize:16}}>NPI : </Text> */}
-                      
-                        </View>
-                        </View>          
+        <ImageBackground source={require('./const3.jpg')} resizeMode="cover" style={{flex:1}}  >
+       
+
+        
+
+        </ImageBackground>   
         </View>
+       
     <DrawerContentScrollView {...props}  contentContainerStyle={{ padding:20}}>            
             <View style={{ backgroundColor: '#fff', paddingTop: 10, paddingBottom: 20, overflow: 'scroll' }}>
           <DrawerItemList {...props}
@@ -29,7 +29,7 @@ const CustomDrawer=(props)=>{
               
         </View>
         </DrawerContentScrollView>
-        <View style={{borderBottomWidth:1,borderColor:'#808080'}}></View>
+        {/* <View style={{borderBottomWidth:1,borderColor:'#808080'}}></View>
         <TouchableOpacity style={{marginBottom:10}}>
         <DrawerItem  label="Logout" onPress={''}
                   labelStyle={{marginLeft:-20,fontSize:15,color:'#333333'}}
@@ -52,7 +52,7 @@ const CustomDrawer=(props)=>{
                     <IonIcons name= 'person-outline'color={"#e6c402"} size={22}/>
                    )}
                    />
-               </TouchableOpacity>   
+               </TouchableOpacity>    */}
        
         </View>
        

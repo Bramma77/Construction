@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.construction.app-mergeDebugResources-34:/values-ku/values-ku.xml",
+            "outputFile": "com.construction.app-mergeDebugResources-45:/values-ku/values-ku.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\wwwbr\\.gradle\\caches\\transforms-3\\0859cc2ebf96bc372b2c46ef5b293d59\\transformed\\jetified-react-android-0.73.0-debug\\res\\values-ku\\values-ku.xml",
+                    "source": "C:\\Users\\wwwbr\\.gradle\\caches\\transforms-3\\440de6b944caf5d41db31d8f13ad48b4\\transformed\\jetified-react-android-0.73.0-debug\\res\\values-ku\\values-ku.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

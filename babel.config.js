@@ -4,4 +4,5 @@ module.exports = {
     
     'react-native-reanimated/plugin',
   ],
+  // assets: ['./assets'],
 };

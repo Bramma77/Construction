@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://construction-7b9b0-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">917036027758</string>
+    <string name="google_api_key" translatable="false">AIzaSyC3Bjx_7l2Soq_Np0p7ABl_WfY3uRiF7GM</string>
+    <string name="google_app_id" translatable="false">1:917036027758:android:5f9e7b4cc5a32c7bdd7b7f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC3Bjx_7l2Soq_Np0p7ABl_WfY3uRiF7GM</string>
+    <string name="google_storage_bucket" translatable="false">construction-7b9b0.appspot.com</string>
+    <string name="project_id" translatable="false">construction-7b9b0</string>
+</resources>
