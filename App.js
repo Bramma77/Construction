@@ -50,7 +50,7 @@ function Logoback(){
               index: 1,
              
               routes: [
-                { name: 'projectList' 
+                { name: 'HomeScreen' 
                },
 
                ],
@@ -167,7 +167,7 @@ const DrawerNavigator=({navigation,route})=>{
      headerRight:(props)=> <Logoback {...props}/>,
     drawerLabelStyle:{marginLeft:-20}}}
     />
-      <Drawer.Screen name='Add Material' initialParams={{item}} component={Quoat}options ={{drawerIcon:()=> <MaterialCommunityIcons name= 'soccer-field'color={"#ff9900"} size={26}/>,
+      {/* <Drawer.Screen name='Add Material' initialParams={{item}} component={Quoat}options ={{drawerIcon:()=> <MaterialCommunityIcons name= 'soccer-field'color={"#ff9900"} size={26}/>,
      headerLeft:(props) => <LogoTitle {...props}/>,
      headerRight:(props)=> <Logoback {...props}/>,
     drawerLabelStyle:{marginLeft:-20}}}
@@ -196,7 +196,7 @@ const DrawerNavigator=({navigation,route})=>{
      headerLeft:(props) => <LogoTitle {...props}/>,
      headerRight:(props)=> <Logoback {...props}/>,
     drawerLabelStyle:{marginLeft:-20}}}
-    />
+    /> */}
     
      {/* <Drawer.Screen name='Dashboard' component={ProjectList}options ={{drawerIcon:()=> <IonIcons name= 'home-outline'color={"#e6c402"} size={22}/>,
      drawerLabelStyle:{marginLeft:-20}}}
@@ -216,11 +216,18 @@ import Invoice from './src/Pdf';
 import Pdf from './src/Pdf';
 import TotalAmount from './src/TotalAmount';
 import Pdfs from './src/Pdf';
-import Quoat from './src/Invoice';
+import Quoat from './src/AddMaterial';
 import Invoiceshare from './src/Invoiceshare';
 import FloorAmount from './src/FloorAmount';
 import AdditionalWork from './src/AdditionalWorks';
 import InvoiceItem from './src/InvoiceItem';
+import HomeScreen from './src/HomeScreen';
+import QuoteView from './src/Quoteflow/QuoteView';
+
+import Quotegenerator from './src/Quoteflow/Pdfgenerater';
+import InvoiceGenerator from './src/Quoteflow/Invoicegenerator';
+import InvoiceEntry from './src/Quoteflow/InvoiceEntry';
+import InvoiceView from './src/Quoteflow/InvoiceView';
 
 const App=()=>{
   const [initializing, setInitializing] = useState(true);
@@ -244,7 +251,7 @@ const App=()=>{
   if (initializing) {
     return null; // Render loading spinner or splash screen while initializing
   }
-  const route=user?'projectList':'Login'
+  const route=user?'HomeScreen':'Login'
   return(
     <SafeAreaProvider>
     <NavigationContainer>
@@ -255,6 +262,88 @@ const App=()=>{
         name='projectList'
         component={ProjectList}
         options={{headerShown:false}}
+        />
+         <Stack.Screen
+        name='HomeScreen'
+        component={HomeScreen}
+        options={{headerShown:false}}
+        />
+         <Stack.Screen
+        name='Quotegenerator'
+        component={Quotegenerator}
+        options={{headerShown:true,
+        
+          headerTintColor:'white',
+          title:'Quote Share',
+          headerStyle:{
+            backgroundColor:'#2f4f4f'
+            
+            
+          }
+     
+        }}
+        />
+        <Stack.Screen
+        name='InvoiceEntry'
+        component={InvoiceEntry}
+        options={{headerShown:true,
+        
+          headerTintColor:'white',
+          title:'Invoice Item',
+          headerStyle:{
+            backgroundColor:'#2f4f4f'
+            
+            
+          }
+     
+        }}
+        />
+         <Stack.Screen
+        name='Invoicegenerator'
+        component={InvoiceGenerator}
+        options={{headerShown:true,
+        
+          headerTintColor:'white',
+          title:'Invoice',
+          headerStyle:{
+            backgroundColor:'#2f4f4f'
+            
+            
+          }
+     
+        }}
+      
+        />
+        
+        
+          <Stack.Screen
+        name='QuoteView'
+        component={QuoteView}
+        options={{headerShown:true,
+        
+          headerTintColor:'white',
+          headerStyle:{
+            backgroundColor:'#2f4f4f'
+            
+            
+          }
+     
+        }}
+        />
+        
+        <Stack.Screen
+        name='InvoiceView'
+        component={InvoiceView}
+        options={{headerShown:true,
+        
+          headerTintColor:'white',
+          headerStyle:{
+            backgroundColor:'#2f4f4f'
+            
+            
+          }
+     
+        }}
         />
    
       <Stack.Screen

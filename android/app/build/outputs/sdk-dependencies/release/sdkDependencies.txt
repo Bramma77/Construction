@@ -327,10 +327,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-android"
-    version: "1.7.1"
+    version: "1.7.3"
   }
   digests {
-    sha256: "\020s\023v\f\030\370\332\027N\215\201\003PJF\216\200n\210\367\265Z\204\275\034\016\256\352\021\216\232"
+    sha256: "Y\377\373&\276\341,2\332\334\372]B\f*}\270]2SQ\201(\261p\357\332rf\023%m"
   }
   repo_index {
     value: 1
@@ -340,7 +340,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-core"
-    version: "1.7.1"
+    version: "1.7.3"
   }
   repo_index {
     value: 1
@@ -350,10 +350,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-core-jvm"
-    version: "1.7.1"
+    version: "1.7.3"
   }
   digests {
-    sha256: "t\226\317\375\323\353\020\020\232\315\332\0342\022\366\254x\025x\236\t8\r\311\342\314\336\304\226\333\243\374"
+    sha256: "\032\263\254\303\217>sU\304\371\321\354b\020zF\372s\310\231\363\a\r\005^]Cs\337\346~\022"
   }
   repo_index {
     value: 1
@@ -363,7 +363,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-bom"
-    version: "1.7.1"
+    version: "1.7.3"
   }
   repo_index {
     value: 1
@@ -373,10 +373,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlinx"
     artifactId: "kotlinx-coroutines-play-services"
-    version: "1.7.1"
+    version: "1.7.3"
   }
   digests {
-    sha256: "\316\241\246\303\221\354Z8\362\365P\235\000l]\003k\355q\002\"u\341\366\247\256\334s^?8a"
+    sha256: "d\326\352\032M\025\242\300\225\r\251\246\037I\352|Q&\216\347L;\035\335\304c\346\225TD\033$"
   }
   repo_index {
     value: 1
@@ -1036,7 +1036,7 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-bom"
-    version: "32.7.0"
+    version: "32.7.1"
   }
   repo_index {
     value: 2
@@ -1397,10 +1397,10 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-auth"
-    version: "22.3.0"
+    version: "22.3.1"
   }
   digests {
-    sha256: "\336\370~\027\035\316y\203]\322L\217iu\021\370\236\027\200\230WDp/V\006\375\204\306!\3369"
+    sha256: "\243\245\367\356$\037\224\263\255\311\263i\244\275\307p,8\220\325Q(\277\302\217F\n\303\322u\275\215"
   }
   repo_index {
     value: 2
@@ -1449,10 +1449,10 @@ library {
   maven_library {
     groupId: "com.google.android.play"
     artifactId: "integrity"
-    version: "1.1.0"
+    version: "1.2.0"
   }
   digests {
-    sha256: "\234A$}{\355\350R\016~C\251K\252\334\027M\355;\307\b}\017\2448-v\240\275\026\250Z"
+    sha256: "\247C\205\"\313H2\246\031\233\230\200{=O\273\215\362SZ\274H)\v\a}\253\207_\250:\347"
   }
   repo_index {
     value: 2
@@ -1462,10 +1462,10 @@ library {
   maven_library {
     groupId: "com.google.android.recaptcha"
     artifactId: "recaptcha"
-    version: "18.1.2"
+    version: "18.4.0"
   }
   digests {
-    sha256: ";\247U\200\002k\206\002\034\325/_\252t\254n\305ca+{IW\246zt\305\037Z\036:\255"
+    sha256: "\025g\n\240\2673\004\210\r\301P\256\222\204]n:\023i!\334}\016\245\312\027g\301imz/"
   }
   repo_index {
     value: 2
@@ -2014,9 +2014,9 @@ library_dependencies {
 library_dependencies {
   library_index: 28
   library_dep_index: 25
-  library_dep_index: 27
   library_dep_index: 26
   library_dep_index: 29
+  library_dep_index: 27
 }
 library_dependencies {
   library_index: 29

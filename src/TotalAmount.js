@@ -196,7 +196,7 @@ const TotalAmount=({navigation,route})=>{
     const ManPowerHead = ['No', 'Man Power', 'Wages'];
     const Manpowerdata = [
         ['1', "Mason(Male)", `${MasonMale?MasonMale:'0'}₹`],
-        ['2', "Mason(Female)", `${masonFemale?masonFemale:'0'}₹`],
+        ['2', "Mason(H)", `${masonFemale?masonFemale:'0'}₹`],
         ['3', "Electrician", `${electrician?electrician:'0'}₹`],
         ['4', "Carpender", `${carpender?carpender:'0'}₹`],
         ['5', "Plumber", `${Plumber?Plumber:'0'}₹`],

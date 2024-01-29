@@ -283,10 +283,7 @@ const [imgurl,setimgurl]=useState(false)
         p {
             font-size: 12px;
         }
-
-
-
-        table {
+       table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
@@ -547,6 +544,8 @@ const [imgurl,setimgurl]=useState(false)
     const numericInput = text.replace(/[^0-9]/g, '');
      onChangephoneno(numericInput);
    };
+
+  
   return (
    
     <View style={{ flex:1,backgroundColor:'white' }}>

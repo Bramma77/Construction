@@ -29,6 +29,8 @@ import com.rnfs.RNFSPackage;
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-html-to-pdf
 import com.christopherdro.htmltopdf.RNHTMLtoPDFPackage;
+// react-native-linear-gradient
+import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-pager-view
 import com.reactnativepagerview.PagerViewPackage;
 // react-native-pdf
@@ -97,6 +99,7 @@ public class PackageList {
       new RNFSPackage(),
       new RNGestureHandlerPackage(),
       new RNHTMLtoPDFPackage(),
+      new LinearGradientPackage(),
       new PagerViewPackage(),
       new RNPDFPackage(),
       new ReanimatedPackage(),

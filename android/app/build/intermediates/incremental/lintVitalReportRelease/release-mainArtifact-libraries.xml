@@ -579,6 +579,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="C:\Users\wwwbr\Documents\Construction\android@@:react-native-linear-gradient::release"
+      jars="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\.transforms\7948adff24a642775cf8b21cc0aa9a84\transformed\out\jars\classes.jar;C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\.transforms\7948adff24a642775cf8b21cc0aa9a84\transformed\out\jars\libs\R.jar"
+      resolved="construction:react-native-linear-gradient:unspecified"
+      folder="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\.transforms\7948adff24a642775cf8b21cc0aa9a84\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="C:\Users\wwwbr\Documents\Construction\android@@:react-native-pdf::release"
       jars="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\.transforms\a240c67013707b46275f1093678fd124\transformed\out\jars\classes.jar;C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\.transforms\a240c67013707b46275f1093678fd124\transformed\out\jars\libs\R.jar"
       resolved="construction:react-native-pdf:unspecified"
@@ -592,10 +605,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Users\wwwbr\Documents\Construction\android@@:react-native-reanimated::release"
-      jars="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\5b494ff129a44918fa13ed5686116346\transformed\out\jars\classes.jar;C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\5b494ff129a44918fa13ed5686116346\transformed\out\jars\libs\R.jar"
-      resolved="construction:react-native-reanimated:unspecified"
-      folder="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\5b494ff129a44918fa13ed5686116346\transformed\out"
+      name="C:\Users\wwwbr\Documents\Construction\android@@:react-native-reanimated"
+      jars="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\3e6298ce22fa711f6bd0098a36e05a70\transformed\jetified-react-native-reanimated-69-jsc\jars\classes.jar"
+      resolved="artifacts:react-native-reanimated:unspecified"
+      folder="C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\3e6298ce22fa711f6bd0098a36e05a70\transformed\jetified-react-native-reanimated-69-jsc"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

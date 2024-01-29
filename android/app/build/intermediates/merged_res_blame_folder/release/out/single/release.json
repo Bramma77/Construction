@@ -4,6 +4,10 @@
         "source": "com.construction.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_invoice.png.flat",
+        "source": "com.construction.app-res-39:/drawable-mdpi/src_invoice.png"
+    },
+    {
         "merged": "com.construction.app-merged_res-45:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
         "source": "com.construction.app-main-46:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
@@ -40,16 +44,16 @@
         "source": "com.construction.app-main-46:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_construction.jpg.flat",
-        "source": "com.construction.app-res-39:/drawable-mdpi/construction.jpg"
-    },
-    {
         "merged": "com.construction.app-merged_res-45:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
         "source": "com.construction.app-res-39:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
         "merged": "com.construction.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.construction.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_const11.png.flat",
+        "source": "com.construction.app-res-39:/drawable-mdpi/src_const11.png"
     },
     {
         "merged": "com.construction.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -88,10 +92,6 @@
         "source": "com.construction.app-res-39:/drawable-mdpi/src_const5.jpg"
     },
     {
-        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_logo.png.flat",
-        "source": "com.construction.app-res-39:/drawable-mdpi/logo.png"
-    },
-    {
         "merged": "com.construction.app-merged_res-45:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
         "source": "com.construction.app-main-46:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
@@ -112,6 +112,10 @@
         "source": "com.construction.app-res-39:/drawable-mdpi/node_modules_reactnativeelementdropdown_src_assets_down.png"
     },
     {
+        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_const10.png.flat",
+        "source": "com.construction.app-res-39:/drawable-mdpi/src_const10.png"
+    },
+    {
         "merged": "com.construction.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.construction.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -124,12 +128,20 @@
         "source": "com.construction.app-res-39:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
+        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_const12.png.flat",
+        "source": "com.construction.app-res-39:/drawable-mdpi/src_const12.png"
+    },
+    {
         "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_const3.jpg.flat",
         "source": "com.construction.app-res-39:/drawable-mdpi/src_const3.jpg"
     },
     {
         "merged": "com.construction.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.construction.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.construction.app-merged_res-45:/drawable-mdpi_src_const9.png.flat",
+        "source": "com.construction.app-res-39:/drawable-mdpi/src_const9.png"
     },
     {
         "merged": "com.construction.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",

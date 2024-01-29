@@ -2966,7 +2966,6 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable construction
 drawable default_scroll_handle_bottom
 drawable default_scroll_handle_left
 drawable default_scroll_handle_right
@@ -2990,7 +2989,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
-drawable logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3071,8 +3069,13 @@ drawable notify_panel_notification_icon_bg
 drawable overlay
 drawable redbox_top_border_background
 drawable rn_edit_text_material
+drawable src_const10
+drawable src_const11
+drawable src_const12
 drawable src_const3
 drawable src_const5
+drawable src_const9
+drawable src_invoice
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

@@ -1,7 +1,7 @@
 import React, { useRef,useState ,useEffect} from 'react';
 import { View, Button, Text, Linking, StyleSheet,TouchableOpacity ,RefreshControl} from 'react-native';
 import RNHTMLtoPDF from 'react-native-html-to-pdf';
-import Invoice from './Invoice'; // Import the Invoice component
+import Invoice from './AddMaterial'; // Import the Invoice component
 import Share from 'react-native-share';
 import RenderHtml from 'react-native-render-html';
 import { PermissionsAndroid } from 'react-native';
@@ -38,7 +38,7 @@ useEffect(() => {
       console.log('material',items)
       setAdditionalWork(items)
     
-      const OverheadTank=items.OverheadTankQuantity===""?0:parseInt(snapshot.val().OverheadTankQuantity)
+    //   const OverheadTank=items.OverheadTankQuantity===""?0:parseInt(snapshot.val().OverheadTankQuantity)
      })
      return () => {
         ref.off('value', onValueChange);
@@ -107,7 +107,7 @@ useEffect(()=>{
    
       const Switchesrate=snapshot.val().Switchesrate===""?0:parseInt(snapshot.val().Switchesrate)
     
-    //   const Watertankrate=snapshot.val().Watertankrate===""?0:parseInt(snapshot.val().Watertankrate)
+    //  const Watertankrate=snapshot.val().Watertankrate===""?0:parseInt(snapshot.val().Watertankrate)
       const Wirerate=snapshot.val().Wirerate===""?0:parseInt(snapshot.val().Wirerate)
       const Paintrate=snapshot.val().Paintrate===""?0:parseInt(snapshot.val().Paintrate)
 
@@ -1521,6 +1521,7 @@ Other doors- Two coats Enamel over one coat of primer </p>
      style={{flex:1,borderWidth:1,width:responsiveWidth(85),}}
      ref={pdfRef}
      key={refreshKey}
+     
      
         source={{uri:path,cache:true}}
         onLoadComplete={(numberOfPages,filePath)=>{

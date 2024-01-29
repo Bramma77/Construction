@@ -12,7 +12,7 @@ const InvoiceItem=({route})=>{
     const[Item,setItem]=useState("");
     const[Quantity,setQuantity]=useState("");
     const[Rate,setRate]=useState("");
-    const [Length, setLength] = useState(false);
+    const[Length, setLength] = useState(false);
     const[Breath,setBreath]=useState([]);
     const[Show,setShow]=useState(false);
     const[Data,setData]=useState([]);
@@ -24,9 +24,11 @@ const InvoiceItem=({route})=>{
          reference.child(`${item.key}`).push({
         SNo:Sno,
         Description:Item,
-        Quantity:Quantity,
+        Length:Length,
+        Breadth:Breath,
+        Quantity:Length*Breath,
        Rate:Rate,
-       Amount:Quantity*Rate
+       Amount:(Length*Breath)*Rate
        
     }).then((res)=>{setShow(false)
     setRate("")
@@ -42,7 +44,11 @@ const handleInputChange= (text) => {
    };
    const handleInputChange1= (text) => {
     const numericInput = text.replace(/[^0-9]/g, '');
-     setQuantity(numericInput);
+     setLength(numericInput);
+   };
+   const handleInputChange3= (text) => {
+    const numericInput = text.replace(/[^0-9]/g, '');
+     setBreath(numericInput);
    };
    const handleInputChange2= (text) => {
     const numericInput = text.replace(/[^0-9]/g, '');
@@ -128,7 +134,7 @@ const ProjectItem = ({ item,onEdit, onDelete, onHandle}) => (
         <View style={{flex:1,backgroundColor:'white'}}>
        <Portal>
                 <Dialog visible={Show} onDismiss={()=>setShow(false)} >
-                <Dialog.Title style={{fontSize:17}}>Add Floor</Dialog.Title>
+                <Dialog.Title style={{fontSize:17}}></Dialog.Title>
                 <Dialog.Content>
                 <View style={styles.ItemView} >
    <Text style={styles.Label}>SNo:</Text>
@@ -155,7 +161,7 @@ const ProjectItem = ({ item,onEdit, onDelete, onHandle}) => (
   
 </View>
 <View style={styles.ItemView} >
-   <Text style={styles.Label}>Quantity:</Text>
+   <Text style={styles.Label}>Length:</Text>
 
    <TextInput
        style={styles.TextInput}
@@ -163,7 +169,19 @@ const ProjectItem = ({ item,onEdit, onDelete, onHandle}) => (
        textAlign="center"
       
        onChangeText={handleInputChange1}
-       value={Quantity}
+       value={Length}
+   />
+</View>
+<View style={styles.ItemView} >
+   <Text style={styles.Label}>Breadth:</Text>
+
+   <TextInput
+       style={styles.TextInput}
+       keyboardType='number-pad'
+       textAlign="center"
+      
+       onChangeText={handleInputChange3}
+       value={Breath}
    />
 </View>
 <View style={styles.ItemView} >

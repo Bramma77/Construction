@@ -15,9 +15,9 @@ MERGED from [:react-native-blob-util] C:\Users\wwwbr\Documents\Construction\node
 MERGED from [:react-native-date-picker] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-date-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-gesture-handler] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-html-to-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-html-to-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-linear-gradient] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-pager-view] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-share] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
@@ -88,6 +88,7 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\wwwbr\.gradle\caches\transfo
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\wwwbr\.gradle\caches\transforms-3\ad50fd07d15fa33501a226dd417b0073\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\wwwbr\.gradle\caches\transforms-3\ecc5c064ee03abb998a1e2c3b7b932ce\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\wwwbr\.gradle\caches\transforms-3\453bf5b76b8a396e65fc3b0fc8464e7e\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\3e6298ce22fa711f6bd0098a36e05a70\transformed\jetified-react-native-reanimated-69-jsc\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\wwwbr\.gradle\caches\transforms-3\3475e502b33c9120d2b709f4754e26b9\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\wwwbr\.gradle\caches\transforms-3\06820d864440670608022bfc4d90100a\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\wwwbr\.gradle\caches\transforms-3\46e5a09c6c02249d9a18ab2bc6b90ce1\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
@@ -351,12 +352,12 @@ MERGED from [:react-native-gesture-handler] C:\Users\wwwbr\Documents\Constructio
 MERGED from [:react-native-gesture-handler] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-html-to-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-html-to-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-html-to-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-html-to-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-linear-gradient] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-linear-gradient] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pager-view] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pager-view] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pdf] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
@@ -497,6 +498,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\w
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\wwwbr\.gradle\caches\transforms-3\ecc5c064ee03abb998a1e2c3b7b932ce\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\wwwbr\.gradle\caches\transforms-3\453bf5b76b8a396e65fc3b0fc8464e7e\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\wwwbr\.gradle\caches\transforms-3\453bf5b76b8a396e65fc3b0fc8464e7e\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\3e6298ce22fa711f6bd0098a36e05a70\transformed\jetified-react-native-reanimated-69-jsc\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\.transforms\3e6298ce22fa711f6bd0098a36e05a70\transformed\jetified-react-native-reanimated-69-jsc\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\wwwbr\.gradle\caches\transforms-3\3475e502b33c9120d2b709f4754e26b9\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\wwwbr\.gradle\caches\transforms-3\3475e502b33c9120d2b709f4754e26b9\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\wwwbr\.gradle\caches\transforms-3\06820d864440670608022bfc4d90100a\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41

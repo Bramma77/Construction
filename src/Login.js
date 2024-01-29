@@ -56,7 +56,7 @@ const LoginScreen = ({navigation}) => {
               index: 1,
              
               routes: [
-                { name: 'projectList' 
+                { name: 'HomeScreen' 
                },
 
                
@@ -134,7 +134,7 @@ const LoginScreen = ({navigation}) => {
              </Dialog>
              </Portal>
     <View style={styles.container}>
-      <Image source={require('../Construction.jpg')} style={styles.logo}/>
+      <Image source={require('./const12.png')} style={styles.logo}/>
       <Text style={{textAlign:'center',fontSize:36,color:'white',fontWeight:'bold',marginTop:40}}>Login</Text>
      
       <Animated.View style={{flex:1,backgroundColor:'white',alignItems:'center',marginTop:50,borderRadius:20,elevation:20,

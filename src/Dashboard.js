@@ -335,8 +335,8 @@ const ProjectList = ({ navigation }) => {
           
 
                 <View style={{ height: 60, backgroundColor: '#2f4f4f', alignItems: 'center', flexDirection: 'row', width: "100%" }}>
-                    <TouchableOpacity>
-                        <Entypo name='home' size={30} color={'white'} style={{ marginLeft: 20 }} />
+                    <TouchableOpacity onPress={()=>navigation.goBack()}>
+                        <Ionicons name='arrow-back' size={25} color={'white'} style={{ marginLeft: 20 }} />
                     </TouchableOpacity>
                     <Text style={styles.HeaderText}>Project List</Text>
                     <View style={{ borderWidth: 0, width: 60, position: 'absolute', width: "100%" }}>
@@ -360,7 +360,7 @@ const ProjectList = ({ navigation }) => {
                     }
                 
                 } title="Add Project" />
-                    <Menu.Item onPress={signout} title="Logout" />
+                    
 
 
 

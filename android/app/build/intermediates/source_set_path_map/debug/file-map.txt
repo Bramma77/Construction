@@ -57,9 +57,9 @@ com.construction.app-packaged_res-55 C:\Users\wwwbr\Documents\Construction\node_
 com.construction.app-packaged_res-56 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-fs\android\build\intermediates\packaged_res\debug
 com.construction.app-packaged_res-57 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
 com.construction.app-packaged_res-58 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-html-to-pdf\android\build\intermediates\packaged_res\debug
-com.construction.app-packaged_res-59 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pager-view\android\build\intermediates\packaged_res\debug
-com.construction.app-packaged_res-60 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\intermediates\packaged_res\debug
-com.construction.app-packaged_res-61 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
+com.construction.app-packaged_res-59 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-linear-gradient\android\build\intermediates\packaged_res\debug
+com.construction.app-packaged_res-60 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pager-view\android\build\intermediates\packaged_res\debug
+com.construction.app-packaged_res-61 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-pdf\android\build\intermediates\packaged_res\debug
 com.construction.app-packaged_res-62 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
 com.construction.app-packaged_res-63 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
 com.construction.app-packaged_res-64 C:\Users\wwwbr\Documents\Construction\node_modules\react-native-share\android\build\intermediates\packaged_res\debug
