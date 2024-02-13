@@ -68,7 +68,7 @@ const SignUp = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('./const12.png')} style={styles.logo}/>
+      <Image source={require('./Assets/const12.png')} style={styles.logo}/>
       <Text style={{textAlign:'center',fontSize:36,color:'white',fontWeight:'bold',marginTop:0}}>Sign Up</Text>
       <View style={styles.inputContainer}>
         <Controller

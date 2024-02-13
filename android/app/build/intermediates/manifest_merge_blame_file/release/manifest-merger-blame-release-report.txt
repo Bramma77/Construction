@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="26"
+8        android:minSdkVersion="21"
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -67,7 +67,7 @@
 33-->C:\Users\wwwbr\Documents\Construction\android\app\src\main\AndroidManifest.xml:15:7-34
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.9.0] C:\Users\wwwbr\.gradle\caches\transforms-3\2191288890acb3ddfada3069d3b6bac6\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-35        android:extractNativeLibs="false"
+35        android:extractNativeLibs="true"
 36        android:icon="@mipmap/ic_launcher"
 36-->C:\Users\wwwbr\Documents\Construction\android\app\src\main\AndroidManifest.xml:13:7-41
 37        android:label="@string/app_name"

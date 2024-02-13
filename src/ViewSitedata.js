@@ -216,7 +216,7 @@ const Viewsitedata = ({ navigation, route }) => {
 
                                 <Table borderStyle={{ borderWidth: 1, borderColor: 'white' }}>
                                     <Row data={ManPowerHead} style={Styles.head} textStyle={Styles.text} />
-                                    <Rows data={Manpowerdata}style={Styles.content} textStyle={Styles.text1} />
+                                    <Rows data={Manpowerdata}style={Styles.content} textStyle={Styles.textcontent} />
                                 </Table>
 
                          
@@ -238,7 +238,7 @@ const Viewsitedata = ({ navigation, route }) => {
 
                                 <Table borderStyle={{ borderWidth: 2, borderColor: 'white' }}>
                                     <Row data={MaterialHead} style={Styles.head} textStyle={Styles.text} />
-                                    <Rows data={MaterialData} style={Styles.content} textStyle={Styles.text1} />
+                                    <Rows data={MaterialData} style={Styles.content} textStyle={Styles.textcontent} />
                                 </Table>
 
                           
@@ -259,8 +259,8 @@ const Viewsitedata = ({ navigation, route }) => {
 export default Viewsitedata;
 const Styles = StyleSheet.create({
     head: { height: 40, backgroundColor: '#2f4f4f' },
-    text: { margin: 6, textAlign: 'center', fontSize: 17, color: 'white',fontWeight:'bold' },
-    text1: { margin: 6, textAlign: 'center', fontSize: 12, color: 'black' },
+    text: { margin: 6, textAlign: 'center', fontSize: 17, color: 'white',fontWeight:'bold'},
+    textcontent: { margin: 6, textAlign: 'center', fontSize: 12, color: 'black' },
     ItemView: {
         flexDirection: 'row', marginVertical: 10, alignItems: 'center'
     },

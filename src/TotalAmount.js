@@ -212,7 +212,7 @@ const TotalAmount=({navigation,route})=>{
         <View style={{flex:1}}>
           <ScrollView>
             <View style={{padding:10}}>
-        <Text style={{ marginLeft: 0,marginTop:10,fontSize:17,color:'black',width:responsiveWidth(60),fontWeight:'bold' }}>Total Manpower Expenditure</Text>
+        <Text style={{ marginLeft: 0,marginTop:10,fontSize:17,color:'black',fontWeight:'bold' }}>Total Manpower Expenditure</Text>
                            
 
        
@@ -228,7 +228,7 @@ const TotalAmount=({navigation,route})=>{
 
                           
                         </View>
-                        <Text style={{ marginLeft: 0,marginTop:20,fontSize:17,color:'black',width:responsiveWidth(60),fontWeight:'bold' }}>Total Material Expenditure</Text>
+                        <Text style={{ marginLeft: 0,marginTop:20,fontSize:17,color:'black',fontWeight:'bold' }}>Total Material Expenditure</Text>
                            
 
        

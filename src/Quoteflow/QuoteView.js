@@ -1726,7 +1726,7 @@ const renderItem14=({item,index})=>{
  
    
     <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
        <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         <TouchableOpacity onPress={()=>{setselectbrand(true)
@@ -1781,7 +1781,7 @@ const renderItem14=({item,index})=>{
         </View>
         <View >
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
        
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
@@ -1833,7 +1833,7 @@ const renderItem14=({item,index})=>{
         </View>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
        
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
@@ -1885,7 +1885,7 @@ const renderItem14=({item,index})=>{
         </View>
         
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
        
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
@@ -1934,7 +1934,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -1981,7 +1981,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2029,7 +2029,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2077,7 +2077,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2125,7 +2125,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2174,7 +2174,7 @@ const renderItem14=({item,index})=>{
         </View>
       
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2221,7 +2221,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2269,7 +2269,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2318,7 +2318,7 @@ const renderItem14=({item,index})=>{
       
         <View style={Styles.card}>
        
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2367,7 +2367,7 @@ const renderItem14=({item,index})=>{
         </View>
       
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
         <View style={[Styles.ItemView,{justifyContent:'space-between'}]}>
         
         
@@ -2417,7 +2417,7 @@ const renderItem14=({item,index})=>{
         
       <Text style={{fontSize:17,fontWeight:'bold',color:'black'}}>Additional Works</Text>
       <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
          <View style={[Styles.ItemView]}>
             <Text style={Styles.Label}>Under Ground Sump(lit):</Text>
             <TextInput
@@ -2442,7 +2442,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
          <View style={[Styles.ItemView]}>
             <Text style={Styles.Label}>Overhead Tank Sintex(lit):</Text>
             <TextInput
@@ -2467,7 +2467,7 @@ const renderItem14=({item,index})=>{
         </ImageBackground>
         </View>
         <View style={Styles.card}>
-        <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+        <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
          <View style={[Styles.ItemView]}>
             <Text style={Styles.Label}>Septic Tank(lit):</Text>
             <TextInput
@@ -2497,7 +2497,7 @@ const renderItem14=({item,index})=>{
     <Text style={{fontSize:17,fontWeight:'bold',color:'black'}}>Other Material Rate</Text>
                  
                   <View style={[Styles.card]}>
-                  <ImageBackground source={require('../const5.jpg')} resizeMode="cover" style={{padding:20}}  >
+                  <ImageBackground source={require('../Assets/const5.jpg')} resizeMode="cover" style={{padding:20}}  >
     
          <View style={[Styles.ItemView]}>
             <Text style={[Styles.Label]}>Tabs for wash basins/sinks/bathing:</Text>

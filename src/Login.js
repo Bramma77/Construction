@@ -16,7 +16,26 @@ const LoginScreen = ({navigation}) => {
   const [isPasswordInputFocused, setPasswordInputFocused] = useState(false);
   const[Forgotpassword,setForgotpassword]=useState("");
   const[Show,setShow]=useState(false);
-
+  const width = new Animated.Value(100);
+  const height = new Animated.Value(100);
+  useEffect(() => {
+    Animated.timing(
+      width, // The animated value to drive
+      {
+        toValue: 250, // Animate to opacity: 1 (opaque)
+        duration: 2000, // Make it take a while
+        useNativeDriver: false,
+      },
+    ).start(); // Starts the animation
+    Animated.timing(
+      height, // The animated value to drive
+      {
+        toValue: 200, // Animate to opacity: 1 (opaque)
+        duration: 2000, // Make it take a while
+        useNativeDriver: false,
+      },
+    ).start(); // Starts the animation
+  }, []);
 
   const handleResetPassword = async () => {
     try {
@@ -123,7 +142,7 @@ const LoginScreen = ({navigation}) => {
                   style={{ borderWidth: 1, borderColor: '#ccc', padding: 8,marginTop:10,marginBottom:10 }}
                 />
 
-<TouchableOpacity onPress={handleResetPassword}>
+         <TouchableOpacity onPress={handleResetPassword}>
                 <View style={{padding:10,marginLeft:responsiveWidth(10),marginTop:20,marginRight:responsiveWidth(10),
                     borderWidth:0,borderRadius:5,alignItems:'center',justifyContent:'center',backgroundColor:'#ff9900'}}>
                     <Text style={{fontSize:15,color:'white'}}>Submit</Text>
@@ -134,8 +153,12 @@ const LoginScreen = ({navigation}) => {
              </Dialog>
              </Portal>
     <View style={styles.container}>
-      <Image source={require('./const12.png')} style={styles.logo}/>
-      <Text style={{textAlign:'center',fontSize:36,color:'white',fontWeight:'bold',marginTop:40}}>Login</Text>
+      <Animated.Image source={require('./Assets/const12.png')} style={{ width: width,
+    height: height,
+    alignSelf:'center',
+    marginTop:30,
+    marginBottom:0}}/>
+      <Text style={{textAlign:'center',fontSize:36,color:'white',fontWeight:'bold',marginTop:30}}>Login</Text>
      
       <Animated.View style={{flex:1,backgroundColor:'white',alignItems:'center',marginTop:50,borderRadius:20,elevation:20,
     transform: [
@@ -237,7 +260,7 @@ const LoginScreen = ({navigation}) => {
            }
         </View>
         <TouchableOpacity style={{alignSelf:'flex-end'}} onPress={()=>setShow(true)}>
-        <Text style={{fontSize:15,color:'black',alignSelf:'flex-end'}}>Forgot Password?</Text>
+        <Text style={{fontSize:15,color:'black',alignSelf:'flex-end',fontWeight:'bold'}}>Forgot Password?</Text>
         </TouchableOpacity>
         {errors.password && <Text style={styles.errorText}>{errors.password.message}</Text>}
         <TouchableOpacity style={styles.loginButton} onPress={handleSubmit(handleSubmitButton)}>
@@ -246,7 +269,7 @@ const LoginScreen = ({navigation}) => {
       <View style={{flexDirection:'row',marginTop:80}}>
         <Text style={{fontSize:14,color:'black'}}>Don't have account?</Text>
         <TouchableOpacity style={{marginLeft:10}} onPress={()=>navigation.navigate('SignUp')}>
-        <Text style={{fontSize:15,color:'black'}}>SignUp</Text>
+        <Text style={{fontSize:15,color:'black',fontWeight:'bold'}}>SignUp</Text>
         </TouchableOpacity>
         </View>
       </View>

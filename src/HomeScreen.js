@@ -74,9 +74,9 @@ const HomeScreen = ({ navigation }) => {
                             <LinearGradient colors={['white','white']}
                              start={{ x: 0, y: 0.5 }} // Left side of the component
                              end={{ x: 1, y: 0.5 }} 
-                             style={{backgroundColor:'#1b1b1b',borderRadius:10}}
+                             style={{backgroundColor:'#1b1b1b',borderRadius:10,padding:10,borderWidth:10,borderColor:'#2f4f4f'}}
                             >
-                        <Image source={require('./const12.png')} style={{ height: 100, width: 120, borderWidth: 1, alignSelf: 'center' }} />
+                        <Image source={require('./Assets/const12.png')} style={{ height: 80, width: 100, borderWidth: 1, alignSelf: 'center' }} />
                         </LinearGradient>
                         </View>
                         <View style={{ flexDirection: 'row', overflow: 'hidden', justifyContent: 'space-between', marginTop: 20 }}>
@@ -84,9 +84,9 @@ const HomeScreen = ({ navigation }) => {
                                 <View style={styles.card}>
 
 
-                                    <Image source={require('./const9.png')} style={{ height: 100, width: 120, borderWidth: 1 }} />
+                                    <Image source={require('./Assets/const9.png')} style={{ height: 75, width: 75, borderWidth: 1 }} />
 
-                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: 150, textAlign: 'center' }}>Projects</Text>
+                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width:responsiveWidth(35), textAlign: 'center' }}>Projects</Text>
 
 
                                 </View>
@@ -95,39 +95,32 @@ const HomeScreen = ({ navigation }) => {
 
                                 <View style={styles.card}>
 
-                                    <Image source={require('./const10.png')} style={{ height: 100, width: 120, borderWidth: 1 }} />
+                                    <Image source={require('./Assets/const10.png')} style={{ height: 65, width: 85, borderWidth: 1 }} />
 
-                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: 150, textAlign: 'center' }}>Material Rates</Text>
+                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: responsiveWidth(35), textAlign: 'center' }}>Material Rates</Text>
                                 </View>
                             </TouchableOpacity>
                         </View>
                         <View style={{ flexDirection: 'row', overflow: 'hidden', justifyContent: 'space-between', marginVertical: 20 }}>
                             <TouchableOpacity onPress={() => navigation.navigate('Quotegenerator')}>
                                 <View style={styles.card}>
-                                    <Image source={require('./const11.png')} style={{ height: 100, width: 100, borderWidth: 1 }} />
-                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: 150, textAlign: 'center' }}>Quotation</Text>
+                                    <Image source={require('./Assets/const11.png')} style={{ height: 80, width: 80, borderWidth: 1 }} />
+                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: responsiveWidth(35), textAlign: 'center' }}>Quotation</Text>
                                 </View>
                             </TouchableOpacity>
                             <TouchableOpacity onPress={() => navigation.navigate('Invoicegenerator')}>
                                 <View style={styles.card}>
-                                    <View style={{ height: 100, borderWidth: 0, width: 100 }}>
+                                   
 
-                                        <Image source={require('./invoice.png')} style={{ borderWidth: 1, height: 100, width: 100 }} />
-                                    </View>
+                                        <Image source={require('./Assets/invoice.png')} style={{ borderWidth: 1, height: 80, width: 80 }} />
+                                 
 
-                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: 150, textAlign: 'center', }}>Invoice</Text>
+                                    <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black', width: responsiveWidth(35), textAlign: 'center', }}>Invoice</Text>
                                 </View>
                             </TouchableOpacity>
                         </View>
-                      
-                       
-
-
-
-                    </View>
-
-
-                </ScrollView>
+                      </View>
+                  </ScrollView>
             {/* </ImageBackground> */}
 
         </View>

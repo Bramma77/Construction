@@ -12,7 +12,7 @@ const CustomDrawer=(props)=>{
          
    
         <View style={{ backgroundColor: '#2f4f4f', height: 100, }}>
-        <ImageBackground source={require('./const3.jpg')} resizeMode="cover" style={{flex:1}}  >
+        <ImageBackground source={require('./Assets/const3.jpg')} resizeMode="cover" style={{flex:1}}  >
        
 
         

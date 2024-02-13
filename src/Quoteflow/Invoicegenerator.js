@@ -249,14 +249,14 @@ const ProjectItem = ({ item,onEdit, onDelete, onHandle}) => (
               <Text style={styles.Text}>Terms & Condition</Text>
         <TextInput
         style={styles.TextInput}
-        keyboardType='number-pad'
+      
         onChangeText={setTerms}
         value={Terms}
       />
               <Text style={styles.Text}>Account Detail</Text>
         <TextInput
         style={styles.TextInput}
-        keyboardType='number-pad'
+       
         onChangeText={setAccountDetail}
         value={AccountDetail}
       />
